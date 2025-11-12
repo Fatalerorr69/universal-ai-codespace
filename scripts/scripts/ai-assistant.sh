@@ -1,8 +1,3 @@
-# vytvoř složku pokud neexistuje
-mkdir -p scripts
-
-# vytvoř soubor s obsahem (vložíš přesně obsah skriptu, který jsi měl v návodu)
-cat > scripts/ai-assistant.sh <<'EOF'
 #!/bin/bash
 
 # Universal AI Assistant for Development
@@ -155,9 +150,3 @@ export -f ai-models
 
 echo -e "${GREEN}✅ Universal AI Assistant loaded!${NC}"
 echo -e "${YELLOW}Type 'ai-help' to see available commands${NC}"
-EOF
-
-# nastav spustitelnost
-chmod +x scripts/ai-assistant.sh
-
-
